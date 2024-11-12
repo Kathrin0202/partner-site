@@ -46,12 +46,12 @@ export default function Home() {
         <div className={styles.container}>
           {steps.map((step, index) => (
             <>
-              <div className={step.containerStyle} key={`container-${index}`}>
+              <div className={`${styles.containerStep} ${step.containerStyle}`} key={`container-${index}`}>
                 <div className={styles.containerBox}>
-                  <div className={step.stepNumberStyle}>{step.number}</div>
+                  <div className={`${styles.stepNumber} ${step.stepNumberStyle}`}>{step.number}</div>
                   <h3
                   className={styles.stepTitle}
-                  dangerouslySetInnerHTML={{ __html: step.title }}
+                  dangerouslySetInnerHTML={{ __html: step.title }} 
                 />
                 </div>
                 <div className={step.stepImageStyle}>

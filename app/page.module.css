@@ -28,31 +28,25 @@
   background: linear-gradient(180deg, rgba(107, 125, 222, 0.12) 0%, #2921A5 100%);
   background-origin: border-box;
 }
-
-.containerStepOne {
+.containerStep {
   border-radius: 20px;
-  border: 2px solid #475FDF;
-  background: linear-gradient(180deg, #6377E1 0%, #2920A5 100%);
-  position: relative;
   width: 419px;
   height: 352px;
+  position: relative;
+}
+
+.containerStepOne {
+  border: 2px solid #475FDF;
+  background: linear-gradient(180deg, #6377E1 0%, #2920A5 100%);
 }
 
 .containerStepTwo {
-  border-radius: 20px;
   border: 2px solid #B247DF;
-  position: relative;
-  width: 419px;
-  height: 352px;
   background: linear-gradient(180deg, #E163E1 0%, #741595 100%);
 }
 
 .containerStepThree {
-  border-radius: 20px;
   border: 2px solid #3A8207;
-  position: relative;
-  width: 419px;
-  height: 352px;
   background: linear-gradient(180deg, #55CE00 0%, #014D1D 100%);
 }
 
@@ -68,9 +62,7 @@
   border: 6px solid #3A8207;
 }
 
-.stepNumberOne {
-  background: linear-gradient(180deg, #2920A5 0%, #6377E1 100%);
-  border: 2px solid linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.32) 100%);
+.stepNumber {
   color: #FFFFFF;
   font-size: 24px;
   line-height: 24px;
@@ -80,34 +72,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.stepNumberOne {
+  background: linear-gradient(180deg, #2920A5 0%, #6377E1 100%);
+  border: 2px solid linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.32) 100%);
 }
 
 .stepNumberTwo {
   background: linear-gradient(180deg, #741595 0%, #E163E1 100%);
   border: 2px solid linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.32) 100%);
-  color: #FFFFFF;
-  font-size: 24px;
-  line-height: 24px;
-  width: 48px;
-  height: 48px;
-  border-radius: 999px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .stepNumberThree {
   background: linear-gradient(180deg, #014D1D 0%, #55CE00 100%);
   border: 2px solid linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.32) 100%);
-  color: #FFFFFF;
-  font-size: 24px;
-  line-height: 24px;
-  width: 48px;
-  height: 48px;
-  border-radius: 999px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .containerBox {

@@ -1,8 +1,8 @@
 import styles from "./page.module.css";
 import ImageOne from'./image/Image.png'
 import Image from "next/image";
-import ImageTwo from'./image/Image (1).png'
-import ImageThree from'./image/Image (2).png'
+import ImageTwo from'./image/Image1.png'
+import ImageThree from'./image/Image2.png'
 import ShoppingCart from './image/shoppingCart.png'
 import Arrow from './image/arrow.png'
 import React from "react";

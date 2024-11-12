@@ -5,6 +5,7 @@ import ImageTwo from'./image/Image (1).png'
 import ImageThree from'./image/Image (2).png'
 import ShoppingCart from './image/shoppingCart.png'
 import Arrow from './image/arrow.png'
+import React from "react";
 
 export default function Home() {
   const steps = [
@@ -45,8 +46,8 @@ export default function Home() {
         </div>
         <div className={styles.container}>
           {steps.map((step, index) => (
-            <>
-              <div className={`${styles.containerStep} ${step.containerStyle}`} key={`container-${index}`}>
+            <React.Fragment key={`container-${index}`}>
+              <div className={`${styles.containerStep} ${step.containerStyle}`}>
                 <div className={styles.containerBox}>
                   <div className={`${styles.stepNumber} ${step.stepNumberStyle}`}>{step.number}</div>
                   <h3
@@ -63,7 +64,7 @@ export default function Home() {
                   <Image src={Arrow} alt="arrow"/>
                 </div>
               )}
-            </>
+            </React.Fragment>
           ))}
         </div>
         <div className={styles.btnBox}>

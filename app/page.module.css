@@ -38,16 +38,19 @@
 .containerStepOne {
   border: 2px solid #475FDF;
   background: linear-gradient(180deg, #6377E1 0%, #2920A5 100%);
+  transition: all 1s ease; 
 }
 
 .containerStepTwo {
   border: 2px solid #B247DF;
   background: linear-gradient(180deg, #E163E1 0%, #741595 100%);
+  transition: all 1s ease; 
 }
 
 .containerStepThree {
   border: 2px solid #3A8207;
   background: linear-gradient(180deg, #55CE00 0%, #014D1D 100%);
+  transition: all 1s ease; 
 }
 
 .containerStepOne:hover {
@@ -144,6 +147,7 @@
   font-weight: 400;
   height: 48px;
   width: 220px;
+  transition: all 1s ease; 
 }
 
 .btn:active {
